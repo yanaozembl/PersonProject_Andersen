@@ -8,7 +8,7 @@ import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.*;
 
 @Controller
-@RequestMapping("/project/users")
+@RequestMapping("/users")
 public class UserController {
     private final UserDAO userDAO;
 
